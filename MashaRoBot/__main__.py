@@ -104,7 +104,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*► [Tyson Granger](https://telegra.ph/file/4863b3d0ba4d125d9d948.jpg) ◄
+*►[Tyson Granger](https://telegra.ph/file/4863b3d0ba4d125d9d948.jpg)◄
 
 Yᴏᴜ Cᴀɴ Cʜᴏᴏꜱᴇ Aɴ Oᴘᴛɪᴏɴ Bᴇʟᴏᴡ Bʏ Cʟɪᴄᴋɪɴɢ A Bᴜᴛᴛᴏɴ.
 
