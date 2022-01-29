@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-『Tyson Granger』
+『[Tyson Granger](https://telegra.ph/file/401bb7902592d77c74006.jpg)』
 
 ◈ ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ.
 
@@ -104,7 +104,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*► Tyson Granger ◄
+*► [Tyson Granger](https://telegra.ph/file/4863b3d0ba4d125d9d948.jpg) ◄
 
 Yᴏᴜ Cᴀɴ Cʜᴏᴏꜱᴇ Aɴ Oᴘᴛɪᴏɴ Bᴇʟᴏᴡ Bʏ Cʟɪᴄᴋɪɴɢ A Bᴜᴛᴛᴏɴ.
 
