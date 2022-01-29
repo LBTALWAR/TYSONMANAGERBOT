@@ -4,7 +4,6 @@
   <img src="https://telegra.ph/file/d8ef121c403fb4ad09696.jpg">
 </p>
 
-# MashaRobot
 Me On Telegram [Tyson Granger](https://t.me/TysonGrangerXRoBot)
 And I Am A Power Full Group Management Bot.
 
