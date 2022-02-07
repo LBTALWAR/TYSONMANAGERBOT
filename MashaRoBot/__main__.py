@@ -84,7 +84,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TYSON TO YOUR GROUP", url="t.me/TysonGrangerXRoBot?startgroup=true"),
+            text="➕️ ADD TYSON TO YOUR GROUP", url="t.me/TysonGrangerXBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="⚙️ HELP AND COMMANDS", callback_data="help_back"),
@@ -95,7 +95,7 @@ buttons = [
         InlineKeyboardButton(text="📈 NETWORK", url="https://t.me/Pegasusxteam"),
     ],
     [
-        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/TheAloneX"),
+        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/TheAloneGodX"),
     ],
     [
         InlineKeyboardButton(text="💾 SOURCE", callback_data="source_"),
