@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-『[Tyson Granger](https://telegra.ph/file/401bb7902592d77c74006.jpg)』
+『[God Of Alone](https://telegra.ph/file/39483a5356ccca318ec5b.jpg)』
 
 *◈ ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ.
 
@@ -84,8 +84,8 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TYSON TO YOUR GROUP", url="t.me/TysonGrangerXBot?startgroup=true"),
-    ],
+            text="➕️ ADD ME TO YOUR GROUP", url="t.me/TysonGrangerXBot?startgroup=true"),
+    ]
     [
         InlineKeyboardButton(text="⚙️ HELP AND COMMANDS", callback_data="help_back"),
     ],
@@ -95,7 +95,7 @@ buttons = [
         InlineKeyboardButton(text="📈 NETWORK", url="https://t.me/Pegasusxteam"),
     ],
     [
-        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/TheAloneGodX"),
+        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/AloneGodX"),
     ],
     [
         InlineKeyboardButton(text="💾 SOURCE", callback_data="source_"),
@@ -104,7 +104,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-►[Tyson Granger](https://telegra.ph/file/4863b3d0ba4d125d9d948.jpg)◄
+►[God Of Alone](https://telegra.ph/file/39483a5356ccca318ec5b.png)◄
 
 *Yᴏᴜ Cᴀɴ Cʜᴏᴏꜱᴇ Aɴ Oᴘᴛɪᴏɴ Bᴇʟᴏᴡ Bʏ Cʟɪᴄᴋɪɴɢ A Bᴜᴛᴛᴏɴ.
 
@@ -356,7 +356,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Tyson Granger*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *God Of Alone*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -388,14 +388,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..❤️ I'm *Tyson Granger*
+            text=""" Hi..💫 I'm *God Of Alone*
                  \nMy Source Is Pravite.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="GO BACK", callback_data="source_back")
+                    InlineKeyboardButton(text="BACK", callback_data="source_back")
                  ]
                 ]
             ),
