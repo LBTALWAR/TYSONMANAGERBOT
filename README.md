@@ -1,10 +1,10 @@
-# Tyson Granger
+# God Of Alone 
 
 <p align="center">
-  <img src="https://telegra.ph/file/d8ef121c403fb4ad09696.jpg">
+  <img src="https://telegra.ph/file/39483a5356ccca318ec5b.jpg">
 </p>
 
-Me On Telegram [Tyson Granger](https://t.me/TysonGrangerXRoBot)
+Me On Telegram [God Of Alone](https://t.me/GodOfAloneRoBot)
 And I Am A Power Full Group Management Bot.
 
 ## How To Host
