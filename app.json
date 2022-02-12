@@ -1,5 +1,5 @@
 {
-      "name": "MashaRoBot",
+      "name": "God Of Alone",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "Masha"
       ],   
-   "repository": "https://github.com/Mr-Dark-Prince/MashaRoBot",
+   "repository": "https://github.com/TheAloneX/TheTysonBot",
    "addons": [
       {
          "options": {
