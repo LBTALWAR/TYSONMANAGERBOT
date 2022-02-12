@@ -1,4 +1,3 @@
-from math import ceil
 from typing import Dict, List
 
 from MashaRoBot import NO_LOAD
@@ -40,38 +39,40 @@ def split_message(msg: str) -> List[str]:
 def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
     if not chat:
         modules = sorted(
-            [EqInlineKeyboardButton(x.__mod_name__,
-                                    callback_data="{}_module({})".format(prefix, x.__mod_name__.lower())) for x
-             in module_dict.values()])
+            [
+                EqInlineKeyboardButton(
+                    x.__mod_name__,
+                    callback_data="{}_module({})".format(
+                        prefix, x.__mod_name__.lower()
+                    ),
+                )
+                for x in module_dict.values()
+            ]
+        )
     else:
         modules = sorted(
-            [EqInlineKeyboardButton(x.__mod_name__,
-                                    callback_data="{}_module({},{})".format(prefix, chat, x.__mod_name__.lower())) for x
-             in module_dict.values()])
+            [
+                EqInlineKeyboardButton(
+                    x.__mod_name__,
+                    callback_data="{}_module({},{})".format(
+                        prefix, chat, x.__mod_name__.lower()
+                    ),
+                )
+                for x in module_dict.values()
+            ]
+        )
 
-    pairs = [
-    modules[i * 5:(i + 1) * 5] for i in range((len(modules) + 5 - 1) // 5)
-    ]
+    pairs = [modules[i * 4 : (i + 1) * 4] for i in range((len(modules) + 4 - 1) // 4)]
 
-    round_num = len(modules) / 5
+    round_num = len(modules) / 4
     calc = len(modules) - round(round_num)
-    if calc == 1:
-        pairs.append((modules[-1], ))
-    elif calc == 5:
-        pairs.append((modules[-1], ))
-
-    max_num_pages = ceil(len(pairs) / 10)
-    modulo_page = page_n % max_num_pages
-
-    # can only have a certain amount of buttons side by side
-    if len(pairs) > 8:
-        pairs = pairs[modulo_page * 6:6 * (modulo_page + 1)] + [
-            (EqInlineKeyboardButton("⬅️", callback_data="{}_prev({})".format(prefix, modulo_page)),
-             EqInlineKeyboardButton("❌", callback_data="masha_back"),
-             EqInlineKeyboardButton("➡️ ", callback_data="{}_next({})".format(prefix, modulo_page)))]
+    if calc in [1, 2]:
+        pairs.append((modules[-1],))
+    elif calc == 2:
+        pairs.append((modules[-1],))
 
     else:
-        pairs += [[EqInlineKeyboardButton("⬅️ BACK", callback_data="masha_back")]]
+        pairs += [[EqInlineKeyboardButton("「 GO BACK TO MAIN MENU 」", callback_data="masha_back")]]
 
     return pairs
 
