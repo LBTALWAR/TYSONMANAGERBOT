@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-『[God Of Alone](https://telegra.ph/file/39483a5356ccca318ec5b.jpg)』
+『[Alone God](https://telegra.ph/file/39483a5356ccca318ec5b.jpg)』
 
 *◈ ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ.
 
@@ -84,11 +84,11 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ", url="t.me/GodOfAloneRoBot?startgroup=true"),
-        InlineKeyboardButton(text="⚙️ ʜᴇʟᴘ  ᴀɴᴅ  ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+            text="➕️ ᴀᴅᴅ  ᴀʟᴏɴᴇ  ɢᴏᴅ", url="t.me/AloneGodRoBot?startgroup=true"),
+        InlineKeyboardButton(text="🔐 ʜᴇʟᴘ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 ʙᴏᴛ  sᴜᴘᴘᴏʀᴛ", url="https://t.me/GodOfAloneBotSupport"),
+        InlineKeyboardButton(text="👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneGodBotSupport"),
         InlineKeyboardButton(text="💾 sᴏᴜʀᴄᴇ", callback_data="source_"),
     ],
 ]
