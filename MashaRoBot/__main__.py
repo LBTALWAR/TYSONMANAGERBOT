@@ -84,21 +84,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP", url="t.me/GodOfAloneRoBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ", url="t.me/GodOfAloneRoBot?startgroup=true"),
+        InlineKeyboardButton(text="⚙️ ʜᴇʟᴘ  ᴀɴᴅ  ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="⚙️ HELP AND COMMANDS", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/Pegasussupportchat"),
-        InlineKeyboardButton(text="🔔 UPDATES", url="https://t.me/Pegasusupdates"),
-        InlineKeyboardButton(text="📈 NETWORK", url="https://t.me/Pegasusxteam"),
-    ],
-    [
-        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/AloneGodX"),
-    ],
-    [
-        InlineKeyboardButton(text="💾 SOURCE", callback_data="source_"),
+        InlineKeyboardButton(text="👥 ʙᴏᴛ  sᴜᴘᴘᴏʀᴛ", url="https://t.me/GodOfAloneBotSupport"),
+        InlineKeyboardButton(text="💾 sᴏᴜʀᴄᴇ", callback_data="source_"),
     ],
 ]
 
