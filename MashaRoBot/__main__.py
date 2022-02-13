@@ -95,7 +95,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-►[God Of Alone](https://telegra.ph/file/39483a5356ccca318ec5b.png)◄
+►[Alone God](https://telegra.ph/file/39483a5356ccca318ec5b.png)◄
 
 *Yᴏᴜ Cᴀɴ Cʜᴏᴏꜱᴇ Aɴ Oᴘᴛɪᴏɴ Bᴇʟᴏᴡ Bʏ Cʟɪᴄᴋɪɴɢ A Bᴜᴛᴛᴏɴ.
 
@@ -301,7 +301,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="「 GO BACK 」", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -347,7 +347,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *God Of Alone*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Alone God*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -359,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="BACK", callback_data="masha_back")
+                    InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -379,14 +379,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..💫 I'm *God Of Alone*
+            text=""" Hi..💫 I'm *Alone God*
                  \nMy Source Is Pravite.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="BACK", callback_data="source_back")
+                    InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="source_back")
                  ]
                 ]
             ),
@@ -525,7 +525,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="ʙᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -601,7 +601,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="sᴇᴛᴛɪɴɢs",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
