@@ -83,12 +83,17 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ  ᴀʟᴏɴᴇ  ɢᴏᴅ", url="t.me/AloneGodRoBot?startgroup=true"),
-        InlineKeyboardButton(text="🔐 ʜᴇʟᴘ", callback_data="help_back"),
+            text="➕️ ADD ALONE GOD", url="t.me/AloneGodRoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneGodBotSupport"),
-        InlineKeyboardButton(text="💾 sᴏᴜʀᴄᴇ", callback_data="source_"),
+        InlineKeyboardButton(text="🔐 HELP", callback_data="help_back"),
+    ],
+    [
+        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/AloneGodBotSupport"),
+        InlineKeyboardButton(text="🔔 UPDATES", url="https://t.me/AloneGodBotUpdates"),
+    ],
+    [
+        InlineKeyboardButton(text="💾 SOURCE", callback_data="source_"),
     ],
 ]
 
