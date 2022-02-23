@@ -1,6 +1,6 @@
-# © @Mr_Dark_Prince
+# © @AloneGodX
 
-__mod_name__ = "TOOLS"
+__mod_name__ = "Tᴏᴏʟs"
 
 __help__ = """
 
