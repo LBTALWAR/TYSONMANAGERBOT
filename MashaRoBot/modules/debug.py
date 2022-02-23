@@ -8,7 +8,7 @@ from telegram.ext import CallbackContext, CommandHandler, run_async
 from MashaRoBot import telethn, dispatcher
 from MashaRoBot.modules.helper_funcs.chat_status import dev_plus
 
-DEBUG_MODE = False
+DEBUG_MODE = True
 
 
 @run_async
@@ -66,6 +66,6 @@ dispatcher.add_handler(LOG_HANDLER)
 DEBUG_HANDLER = CommandHandler("debug", debug)
 dispatcher.add_handler(DEBUG_HANDLER)
 
-__mod_name__ = "Debug"
+__mod_name__ = "Dᴇ-ʙᴜɢ"
 __command_list__ = ["debug"]
 __handlers__ = [DEBUG_HANDLER]
