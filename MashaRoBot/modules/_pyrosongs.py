@@ -75,4 +75,4 @@ def song(client, message):
         print(e)
 
 
-__mod_name__ = "pyrosong"
+__mod_name__ = "Pʏʀᴏsᴏɴɢ"
