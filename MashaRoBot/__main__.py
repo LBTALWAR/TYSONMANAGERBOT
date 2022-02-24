@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐞𝐲 𝐈'𝐦 [ᴀʟᴏɴᴇ  ɢᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png).
+𝐇𝐞𝐲 𝐈'𝐦 [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png).
 
 𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help.
 
@@ -83,24 +83,24 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ALONE GOD", url="t.me/AloneGodRoBot?startgroup=true"),
+            text="➕️ Aᴅᴅ  Aʟᴏɴᴇ  Gᴏᴅ", url="t.me/AloneGodRoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🔐 HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="🔐 Hᴇʟᴘ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/AloneGodBotSupport"),
-        InlineKeyboardButton(text="🔔 UPDATES", url="https://t.me/AloneGodBotUpdates"),
+        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneGodBotSupport"),
+        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneGodBotUpdates"),
     ],
     [
-        InlineKeyboardButton(text="💾 SOURCE", callback_data="source_"),
+        InlineKeyboardButton(text="💾 Sᴏᴜʀᴄᴇ", callback_data="source_"),
     ],
 ]
 
 
 HELP_STRINGS = """
-*ʜɪ ɪ ᴍ* [ᴀʟᴏɴᴇ  ɢᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png)
-*ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ.*"""
+*Hɪ I'ᴍ * [Aʟᴏɴᴇ Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png)
+*Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴꜱ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ Aʙᴏᴜᴛ Sᴘᴇᴄɪꜰɪᴄ Mᴏᴅᴜʟᴇꜱ..*"""
 
 
 DONATE_STRING = """No need.. I'm rich"""
@@ -188,7 +188,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
@@ -292,7 +292,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "「 *HELP FOR* *{}* 」:\n".format(
+                "「 *Hᴇʟᴘ  Fᴏʀ* *{}* 」:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
