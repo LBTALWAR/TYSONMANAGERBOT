@@ -196,7 +196,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
@@ -310,7 +310,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="「 GO BACK 」", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -356,7 +356,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Tyson Granger*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Aʟᴏɴᴇ  Gᴏᴅ*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -368,7 +368,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="BACK", callback_data="masha_back")
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -395,7 +395,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="GO BACK", callback_data="source_back")
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="source_back")
                  ]
                 ]
             ),
@@ -461,7 +461,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -534,7 +534,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="Bᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
