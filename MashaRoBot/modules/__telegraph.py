@@ -79,4 +79,10 @@ def resize_image(image):
     im = Image.open(image)
     im.save(image, "PNG")
 
+__help__ = """
+I can upload files to Telegraph
+ ❍ /tm :Get Telegraph Link Of Replied Media
+ ❍ /tt :Get Telegraph Link of Replied Text
+"""
+
 __mod_name__ = "Tᴇʟᴇɢʀᴀᴘʜ"
