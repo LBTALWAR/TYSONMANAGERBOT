@@ -99,11 +99,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-*Hɪ I'ᴍ * [Aʟᴏɴᴇ Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png)
-*Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴꜱ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ Aʙᴏᴜᴛ Sᴘᴇᴄɪꜰɪᴄ Mᴏᴅᴜʟᴇꜱ..*"""
+*Hɪ I'ᴍ* [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png) *Hᴀᴠɪɴɢ  Mᴀɴʏ  Sᴘᴇᴄɪᴀʟ  Fᴇᴀᴛᴜʀᴇs  ✨
+•  Cʜᴇᴄᴋ  Aʟʟ  Bᴜᴛᴛᴏɴ  Bᴇʟᴏᴡ  Tᴏ  Exᴘʟᴏʀᴇ  Eᴠᴇʀʏ  Cᴏᴍᴍᴀɴᴅs  Oғ  Aʟᴏɴᴇ  Gᴏᴅ
+•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* @AloneGodBotSupport"""
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """*No need.. I'm rich*"""
 
 IMPORTED = {}
 MIGRATEABLE = []
