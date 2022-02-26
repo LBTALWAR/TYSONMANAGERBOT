@@ -74,12 +74,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐞𝐲 𝐈'𝐦 [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png).
-
-𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help.
-
-✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰
-"""
+Hᴇʏ I'ᴍ [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png).
+• I Hᴀᴠᴇ Lᴏᴛ Oғ Fᴇᴀᴛᴜʀᴇs Aɴᴅ  I Cᴀɴ  Eᴀsɪʟʏ Mᴀɴᴀɢɪɴɢ Yᴏᴜʀ  Gʀᴏᴜᴘs  !  Hɪᴛ /help Tᴏ
+• Cᴏɴᴛᴀᴄᴛ [• 🇮🇳 • Aʟᴏɴᴇ Gᴏᴅ X](https://t.me/AloneGodX) Fᴏʀ Aɴʏ Qᴜᴇʀʏ Aʙᴏᴜᴛ Mᴇ.
+• Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs Aɴᴅ Mᴀᴋᴇ Aᴅᴍɪɴ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs Wɪᴛʜ Mʏ Uɴᴅᴇʀᴀᴛᴇᴅ Pᴏᴡᴇʀs.✰"""
 buttons = [
     [
         InlineKeyboardButton(
@@ -527,7 +525,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʙᴀᴄᴋ",
+                                text="Bᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -677,7 +675,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yᴇs I'ᴍ Aʟɪᴠᴇ 💖")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
