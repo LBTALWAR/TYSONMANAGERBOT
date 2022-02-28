@@ -75,9 +75,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hᴇʏ I'ᴍ [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png).
+
 • I Hᴀᴠᴇ Lᴏᴛ Oғ Fᴇᴀᴛᴜʀᴇs Aɴᴅ  I Cᴀɴ  Eᴀsɪʟʏ Mᴀɴᴀɢɪɴɢ Yᴏᴜʀ  Gʀᴏᴜᴘs  !  Hɪᴛ /help Tᴏ
 • Cᴏɴᴛᴀᴄᴛ [• 🇮🇳 • Aʟᴏɴᴇ Gᴏᴅ X](https://t.me/AloneGodX) Fᴏʀ Aɴʏ Qᴜᴇʀʏ Aʙᴏᴜᴛ Mᴇ.
-• Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs Aɴᴅ Mᴀᴋᴇ Aᴅᴍɪɴ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs Wɪᴛʜ Mʏ Uɴᴅᴇʀᴀᴛᴇᴅ Pᴏᴡᴇʀs.✰"""
+• Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs Aɴᴅ Mᴀᴋᴇ Aᴅᴍɪɴ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs Wɪᴛʜ Mʏ Uɴᴅᴇʀᴀᴛᴇᴅ Pᴏᴡᴇʀs.
+
+Pᴏᴡᴇʀᴇᴅ Bʏ [Tʜᴀɴɪᴍᴀɪ  Bᴏᴛs.](https://t.me/thanimaibots)
+"""
 buttons = [
     [
         InlineKeyboardButton(
@@ -87,8 +91,8 @@ buttons = [
         InlineKeyboardButton(text="🔐 Hᴇʟᴘ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneGodBotSupport"),
-        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneGodBotUpdates"),
+        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/thanimaisupport"),
+        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/thanimaibots"),
     ],
     [
         InlineKeyboardButton(text="💾 Sᴏᴜʀᴄᴇ", callback_data="source_"),
@@ -99,10 +103,10 @@ buttons = [
 HELP_STRINGS = """
 *Hɪ I'ᴍ* [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png) *Hᴀᴠɪɴɢ  Mᴀɴʏ  Sᴘᴇᴄɪᴀʟ  Fᴇᴀᴛᴜʀᴇs  ✨
 •  Cʜᴇᴄᴋ  Aʟʟ  Bᴜᴛᴛᴏɴ  Bᴇʟᴏᴡ  Tᴏ  Exᴘʟᴏʀᴇ  Eᴠᴇʀʏ  Cᴏᴍᴍᴀɴᴅs  Oғ  Aʟᴏɴᴇ  Gᴏᴅ
-•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* @AloneGodBotSupport"""
+•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* [Tʜᴀɴɪᴍᴀɪ  Bᴏᴛs](https://t.me/thanimaibots)"""
 
 
-DONATE_STRING = """*No need.. I'm rich*"""
+DONATE_STRING = """*Nᴏ Nᴇᴇᴅ. I'ᴍ Rɪᴄʜ*"""
 
 IMPORTED = {}
 MIGRATEABLE = []
