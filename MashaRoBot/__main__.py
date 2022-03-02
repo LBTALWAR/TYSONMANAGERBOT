@@ -80,7 +80,7 @@ Hᴇʏ I'ᴍ [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5
 • Cᴏɴᴛᴀᴄᴛ [• 🇮🇳 • Aʟᴏɴᴇ Gᴏᴅ X](https://t.me/AloneGodX) Fᴏʀ Aɴʏ Qᴜᴇʀʏ Aʙᴏᴜᴛ Mᴇ.
 • Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs Aɴᴅ Mᴀᴋᴇ Aᴅᴍɪɴ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs Wɪᴛʜ Mʏ Uɴᴅᴇʀᴀᴛᴇᴅ Pᴏᴡᴇʀs.
 
-Pᴏᴡᴇʀᴇᴅ Bʏ [Tʜᴀɴɪᴍᴀɪ  Bᴏᴛs.](https://t.me/thanimaibots)
+Pᴏᴡᴇʀᴇᴅ Bʏ [Zᴇx](https://t.me/ZexNetwork)
 """
 buttons = [
     [
@@ -91,8 +91,9 @@ buttons = [
         InlineKeyboardButton(text="🔐 Hᴇʟᴘ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/thanimaisupport"),
-        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/thanimaibots"),
+        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZexSupport"),
+        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/ZexUpdates"),
+        InlineKeyboardButton(text="", url="https://t.me/ZexUpdates"),
     ],
     [
         InlineKeyboardButton(text="💾 Sᴏᴜʀᴄᴇ", callback_data="source_"),
