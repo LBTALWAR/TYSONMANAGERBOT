@@ -93,7 +93,7 @@ buttons = [
     [
         InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZexSupport"),
         InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/ZexUpdates"),
-        InlineKeyboardButton(text="", url="https://t.me/ZexUpdates"),
+        InlineKeyboardButton(text="📈 Nᴇᴛᴡᴏʀᴋ", url="https://t.me/ZexNetwork"),
     ],
     [
         InlineKeyboardButton(text="💾 Sᴏᴜʀᴄᴇ", callback_data="source_"),
@@ -104,7 +104,10 @@ buttons = [
 HELP_STRINGS = """
 *Hɪ I'ᴍ* [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png) *Hᴀᴠɪɴɢ  Mᴀɴʏ  Sᴘᴇᴄɪᴀʟ  Fᴇᴀᴛᴜʀᴇs  ✨
 •  Cʜᴇᴄᴋ  Aʟʟ  Bᴜᴛᴛᴏɴ  Bᴇʟᴏᴡ  Tᴏ  Exᴘʟᴏʀᴇ  Eᴠᴇʀʏ  Cᴏᴍᴍᴀɴᴅs  Oғ  Aʟᴏɴᴇ  Gᴏᴅ
-•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* [Tʜᴀɴɪᴍᴀɪ  Bᴏᴛs](https://t.me/thanimaibots)"""
+•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* [Zᴇx Sᴜᴘᴘᴏʀᴛ](https://t.me/ZexSupport)
+
+Pᴏᴡᴇʀᴇᴅ Bʏ [Zᴇx](https://t.me/ZexNetwork)
+"""
 
 
 DONATE_STRING = """*Nᴏ Nᴇᴇᴅ. I'ᴍ Rɪᴄʜ*"""
