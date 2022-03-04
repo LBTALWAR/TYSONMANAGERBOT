@@ -1,20 +1,5 @@
  # CREDITS TO = @AloneGodX
-LIE = (
-       "🔥",
-       "💡",
-       "😃",
-       "👀",
-       "🧐",
-       "😁",
-       "☺️",
-       "😂",
-       "😝",
-       "😎",
-       "😋",
-       "😒",
-       "🤑",
-    )
- 
+
 TRUTH = (
     "Have you ghosted someone?"
     "Have you ever walked in on your parents doing 'it'?",
