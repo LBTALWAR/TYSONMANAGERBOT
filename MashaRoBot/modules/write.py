@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from Emli import pbot as app
+from MashaRoBot import pbot as app
 from requests import get
 import os
 import requests
@@ -189,8 +189,8 @@ async def on_off_antiarab(_, message: Message):
     )
     await m.delete()
 
-__MODULE__ = "Lᴏɢᴏ-Tᴏʟʟs"
-__HELP__ = """
+__mod_name__ = "Lᴏɢᴏ-Tᴏʟʟs"
+__help__ = """
 **Create Beautiful logos for your profile pictures **
 ×  /logo [TEXT]: Create a logo 
 ×  /logohq [TEXT]: Create a HQ logo 
