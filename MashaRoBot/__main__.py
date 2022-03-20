@@ -219,13 +219,22 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+           update.effective_message.reply_video(
+            START_IMG, caption= "<code>I'm awake already!\nHaven't slept since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                  [
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZexSupport")
+                  ],
+                  [
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/ZexUpdates")
+                  ]
+                ]
+            ),
         )
-
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
