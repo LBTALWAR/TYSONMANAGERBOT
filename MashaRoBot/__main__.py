@@ -77,10 +77,9 @@ PM_START_TEXT = """
 Hᴇʏ I'ᴍ [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png).
 
 • I Hᴀᴠᴇ Lᴏᴛ Oғ Fᴇᴀᴛᴜʀᴇs Aɴᴅ  I Cᴀɴ  Eᴀsɪʟʏ Mᴀɴᴀɢɪɴɢ Yᴏᴜʀ  Gʀᴏᴜᴘs  !  Hɪᴛ /help Tᴏ
-• Cᴏɴᴛᴀᴄᴛ [• 🇮🇳 • Aʟᴏɴᴇ Gᴏᴅ X](https://t.me/AloneGodX) Fᴏʀ Aɴʏ Qᴜᴇʀʏ Aʙᴏᴜᴛ Mᴇ.
+• Cᴏɴᴛᴀᴄᴛ [• 🇮🇳 • Aʟᴏɴᴇ X](https://t.me/TheAloneXD) Fᴏʀ Aɴʏ Qᴜᴇʀʏ Aʙᴏᴜᴛ Mᴇ.
 • Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs Aɴᴅ Mᴀᴋᴇ Aᴅᴍɪɴ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs Wɪᴛʜ Mʏ Uɴᴅᴇʀᴀᴛᴇᴅ Pᴏᴡᴇʀs.
 
-Pᴏᴡᴇʀᴇᴅ Bʏ [Zᴇx](https://t.me/ZexNetwork)
 """
 buttons = [
     [
@@ -91,9 +90,8 @@ buttons = [
         InlineKeyboardButton(text="🔐 Hᴇʟᴘ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZexSupport"),
-        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/ZexUpdates"),
-        InlineKeyboardButton(text="📈 Nᴇᴛᴡᴏʀᴋ", url="https://t.me/ZexNetwork"),
+        InlineKeyboardButton(text="👥 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneGodSupport"),
+        InlineKeyboardButton(text="🔔 Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneGodUpdates"),   
     ],
     [
         InlineKeyboardButton(text="💾 Sᴏᴜʀᴄᴇ", callback_data="source_"),
@@ -104,9 +102,8 @@ buttons = [
 HELP_STRINGS = """
 *Hɪ I'ᴍ* [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png) *Hᴀᴠɪɴɢ  Mᴀɴʏ  Sᴘᴇᴄɪᴀʟ  Fᴇᴀᴛᴜʀᴇs  ✨
 •  Cʜᴇᴄᴋ  Aʟʟ  Bᴜᴛᴛᴏɴ  Bᴇʟᴏᴡ  Tᴏ  Exᴘʟᴏʀᴇ  Eᴠᴇʀʏ  Cᴏᴍᴍᴀɴᴅs  Oғ  Aʟᴏɴᴇ  Gᴏᴅ
-•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* [Zᴇx Sᴜᴘᴘᴏʀᴛ](https://t.me/ZexSupport)
+•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* [Aʟᴏɴᴇ Gᴏᴅ Sᴜᴘᴘᴏʀᴛ](https://t.me/AloneGodSupport)
 
-Pᴏᴡᴇʀᴇᴅ Bʏ [Zᴇx](https://t.me/ZexNetwork)
 """
 
 
@@ -227,10 +224,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZexSupport")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneGodSupport")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/ZexUpdates")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneGodUpdates")
                   ]
                 ]
             ),
@@ -318,7 +315,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -376,7 +373,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="masha_back")
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -403,7 +400,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="source_back")
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="source_back")
                  ]
                 ]
             ),
