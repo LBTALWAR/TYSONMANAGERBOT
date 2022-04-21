@@ -101,10 +101,9 @@ buttons = [
 
 
 HELP_STRINGS = """
-*Hɪ I'ᴍ* [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png) *Hᴀᴠɪɴɢ  Mᴀɴʏ  Sᴘᴇᴄɪᴀʟ  Fᴇᴀᴛᴜʀᴇs  ✨
-•  Cʜᴇᴄᴋ  Aʟʟ  Bᴜᴛᴛᴏɴ  Bᴇʟᴏᴡ  Tᴏ  Exᴘʟᴏʀᴇ  Eᴠᴇʀʏ  Cᴏᴍᴍᴀɴᴅs  Oғ  Aʟᴏɴᴇ  Gᴏᴅ
-•  Iғ  Yᴏᴜ  Fᴀᴄɪɴɢ  Aɴʏ  Issᴜᴇ  Oʀ  Fɪɴᴅ  Aɴʏ  Bᴜɢs  Iɴ  Aɴʏ  Cᴏᴍᴍᴀɴᴅ  Tʜᴇɴ  Yᴏᴜ  Cᴀɴ  Rᴇᴘᴏʀᴛ  Iᴛ  Oɴ* [Aʟᴏɴᴇ Gᴏᴅ Sᴜᴘᴘᴏʀᴛ](https://t.me/AloneGodSupport)
-
+━━━━━━━ [Aʟᴏɴᴇ  Gᴏᴅ](https://telegra.ph/file/39483a5356ccca318ec5b.png) ━━━━━━━
+  cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Uꜱᴀɢᴇ Oꜰ Sᴘᴇᴄɪꜰɪᴄꜱ Cᴏᴍᴍᴀɴᴅ.
+━━━━━━━━━━━━━━━━━━━━━
 """
 
 
