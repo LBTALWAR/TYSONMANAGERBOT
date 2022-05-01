@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from MashaRoBot import LOGGER
-from MashaRoBot.modules.users import get_user_id
+from AloneGodRoBot import LOGGER
+from AloneGodRoBot.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
