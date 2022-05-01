@@ -1,5 +1,5 @@
-from MashaRoBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from MashaRoBot import DRAGONS
+from AloneGodRoBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from AloneGodRoBot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
@@ -42,13 +42,13 @@ async def is_user_admin(user_id: int, chat_id):
     return status
 
 
-async def masha_is_admin(chat_id: int):
+async def alonegod_is_admin(chat_id: int):
     status = False
-    masha = await telethn.get_me()
+    alonegod = await telethn.get_me()
     async for user in telethn.iter_participants(
         chat_id, filter=ChannelParticipantsAdmins
     ):
-        if masha.id == user.id:
+        if alonegod.id == user.id:
             status = True
             break
     return status
