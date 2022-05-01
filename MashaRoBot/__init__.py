@@ -1,3 +1,5 @@
+#Credits Fully To @TheAloneXD
+
 import logging
 import os
 import sys
@@ -99,7 +101,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from MashaRoBot.config import Development as Config
+    from AloneGodRoBot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -172,7 +174,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1587091205)
+DEV_USERS.add(5259108841)
 
 if not SPAMWATCH_API:
     sw = None
@@ -186,8 +188,8 @@ else:
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("masha", API_ID, API_HASH)
-pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("alonegod", API_ID, API_HASH)
+pbot = Client("alonegodpbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
@@ -197,7 +199,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from MashaRoBot.modules.helper_funcs.handlers import (
+from AloneGodRoBot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
