@@ -1,7 +1,7 @@
 from math import ceil
 from typing import Dict, List
 
-from MashaRoBot import NO_LOAD
+from AloneGodRoBot import NO_LOAD
 from telegram import MAX_MESSAGE_LENGTH, Bot, InlineKeyboardButton, ParseMode
 from telegram.error import TelegramError
 
@@ -81,11 +81,11 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
     if len(pairs) > 2:
         pairs = pairs[modulo_page * 4:4 * (modulo_page + 1)] + [
             (EqInlineKeyboardButton("Bᴀᴄᴋ", callback_data="{}_prev({})".format(prefix, modulo_page)),
-                EqInlineKeyboardButton("Cʟᴏsᴇ", callback_data="masha_back"),
+                EqInlineKeyboardButton("Cʟᴏsᴇ", callback_data="alonegod_back"),
              EqInlineKeyboardButton("Nᴇxᴛ", callback_data="{}_next({})".format(prefix, modulo_page)))]
 
     else:
-        pairs += [[EqInlineKeyboardButton("Cʟᴏsᴇ", callback_data="masha_back")]]
+        pairs += [[EqInlineKeyboardButton("Cʟᴏsᴇ", callback_data="AloneGod_back")]]
 
     return pairs
 
