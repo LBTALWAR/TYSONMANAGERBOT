@@ -1,10 +1,12 @@
+#Credits Fully To @TheAloneXD
+
 import importlib
 import time
 import re
 from sys import argv
 from typing import Optional
 
-from MashaRoBot import (
+from AloneGodRoBot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +27,9 @@ from MashaRoBot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from MashaRoBot.modules import ALL_MODULES
-from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin
-from MashaRoBot.modules.helper_funcs.misc import paginate_modules
+from AloneGodRoBot.modules import ALL_MODULES
+from AloneGodRoBot.modules.helper_funcs.chat_status import is_user_admin
+from AloneGodRoBot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -120,7 +122,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("MashaRoBot.modules." + module_name)
+    imported_module = importlib.import_module("AloneGodRoBot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -357,9 +359,9 @@ def help_button(update, context):
 
 
 @run_async
-def Masha_about_callback(update: Update, context: CallbackContext):
+def AloneGod_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
-    if query.data == "masha_":
+    if query.data == "alonegod_":
         query.message.edit_text(
             text=""" ℹ️ I'm *Alone God*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
@@ -373,12 +375,12 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="masha_back")
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="alonegod_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "masha_back":
+    elif query.data == "alonegod_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -466,7 +468,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -615,7 +617,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs",
+                                text="Sᴇᴛᴛɪɴɢs",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -706,7 +708,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(Masha_about_callback, pattern=r"masha_")
+    about_callback_handler = CallbackQueryHandler(AloneGod_about_callback, pattern=r"alonegod_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
