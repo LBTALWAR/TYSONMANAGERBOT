@@ -3,7 +3,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open('{}/MashaRoBot/{}'.format(os.getcwd(), config),
+    with open('{}/AloneGodRoBot/{}'.format(os.getcwd(), config),
               'r') as json_file:
         return json.load(json_file)[key]
 
@@ -16,7 +16,7 @@ class Config(object):
     TOKEN = "5256585936:AAFtDZTlTXruym0O8txm4cP-4ev5soRpA04"
     OWNER_ID = 5259108841
     OWNER_USERNAME = "TheAloneXD"
-    SUPPORT_CHAT = 'ZexSupport'
+    SUPPORT_CHAT = 'AloneGodSupport'
     JOIN_LOGGER = -1001739802989
     EVENT_LOGS = -1001739802989
 
