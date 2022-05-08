@@ -90,12 +90,11 @@ buttons = [
         InlineKeyboardButton(text="⚙️ HELP AND COMMANDS", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/Pegasussupportchat"),
-        InlineKeyboardButton(text="🔔 UPDATES", url="https://t.me/Pegasusupdates"),
-        InlineKeyboardButton(text="📈 NETWORK", url="https://t.me/Pegasusxteam"),
+        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/TYSON_SUPPORT_GROUP"),
+        InlineKeyboardButton(text="🔔 UPDATES", url="https://t.me/TEAM_TYSON"),
     ],
     [
-        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/TheAloneGodX"),
+        InlineKeyboardButton(text="👑 MY MASTER", url="https://t.me/King_Of_Alone_Dark_World"),
     ],
     [
         InlineKeyboardButton(text="💾 SOURCE", callback_data="source_"),
@@ -356,7 +355,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Aʟᴏɴᴇ  Gᴏᴅ*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Tyson Granger*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -684,7 +683,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm Alive ✨")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
